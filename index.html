@@ -3,9 +3,35 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.green.css" />
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
   </head>
   <body>
     <h1>Hello World!</h1>
+    <div class="owl-carousel owl-theme">
+      <img src="http://placehold.it/300/f44336/000000" />
+      <img src="http://placehold.it/300/e91e63/000000" />
+      <img src="http://placehold.it/300/9c27b0/000000" />
+      <img src="http://placehold.it/300/673ab7/000000" />
+      <img src="http://placehold.it/300/4caf50/000000" />
+      <img src="http://placehold.it/300/8bc34a/000000" />
+    </div>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            center: true,
+            rtl:true,
+            nav:true,
+            loop:true,
+            margin:10
+        });
+      });
+    </script>
     <!-- All of the Node.js APIs are available in this renderer process. -->
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
