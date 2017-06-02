@@ -1,3 +1,13 @@
+
+## Dependencies
+- babel-preset-es2015, babel-preset-react, babel-register => babel converts our ES6 and JSX into pure JS
+- owl.carousel => Image rotator css import
+
+
+
+
+---
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
@@ -41,5 +51,3 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 - [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
 
 ## License
-
-

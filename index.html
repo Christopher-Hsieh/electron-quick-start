@@ -6,9 +6,18 @@
 
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.green.css" />
+    <script>
+      // install babel hooks in the renderer process
+      require('babel-register');
+      require('./scripts/main');
+    </script>
   </head>
   <body>
     <h1>Hello World!</h1>
+    <!-- Our react component -->
+    <div>
+      <div id="app"></div>
+    </div>
     <div class="owl-carousel owl-theme">
       <img src="http://placehold.it/300/f44336/000000" />
       <img src="http://placehold.it/300/e91e63/000000" />
@@ -39,8 +48,9 @@
       });
     });
   </script>
-  
+
   <script>
+
     // You can also require other files to run in this process
     require('./renderer.js')
   </script>
