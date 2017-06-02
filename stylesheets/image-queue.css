@@ -1,12 +1,13 @@
 image-queue {
     background: #ccffff;
-
-    height: 100px
+    position: fixed;
+    height: 75px;
+    right: 0;
     bottom: 0px;
     width: 100%;
-    padding: 15px 0 70px;
+    padding: 5px 0px;
     display: block;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
     /*transform: translateX(350px);*/
     /*transition: all .5s ease-in-out;*/
 

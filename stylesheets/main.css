@@ -1,12 +1,14 @@
 main {
-  // flex: 5 0 0;
-  padding: 10px 20px;
+  /*// flex: 5 0 0;*/
+  background: #ccffcc;
+
+  /*padding: 10px 20px;*/
+  margin-top: 50px;
   margin-left: 200px;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 100%;
-
-  bottom: 70px;
+  top: 50px;
   /*& > div {
     min-width: 130px;
     max-width: 100%;

@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <!-- <title>Hello World!</title> -->
 
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.green.css" />
     <link rel="stylesheet" href="./stylesheets/aside.css" />
     <link rel="stylesheet" href="./stylesheets/main.css" />
     <link rel="stylesheet" href="./stylesheets/image-queue.css" />
+    <link rel="stylesheet" href="./stylesheets/top-frame.css" />
     <script>
       // install babel hooks in the renderer process
       require('babel-register');
@@ -16,8 +17,7 @@
     </script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- Our react component -->
+    <top-frame>top frame</top-frame>
     <aside class="aside">
       <div id="app"></div>
     </aside>
@@ -30,14 +30,12 @@
       <img src="http://placehold.it/300/4caf50/000000" />
       <img src="http://placehold.it/300/8bc34a/000000" />
     </div>
-
+  </main>
+  <image-queue>
     <!-- All of the Node.js APIs are available in this renderer process. -->
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
-  </main>
-  <image-queue>
-    I am the queue.
   </image-queue>
 
   <script>window.$ = window.jQuery = require('jquery');</script>
