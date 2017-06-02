@@ -1,0 +1,16 @@
+image-queue {
+    background: #ccffff;
+
+    height: 100px
+    bottom: 0px;
+    width: 100%;
+    padding: 15px 0 70px;
+    display: block;
+    overflow-y: scroll;
+    /*transform: translateX(350px);*/
+    /*transition: all .5s ease-in-out;*/
+
+    /*&.active {
+        transform: translateX(0);
+    }*/
+}

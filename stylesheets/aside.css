@@ -1,0 +1,9 @@
+aside {
+    background: #009999;
+    border-right: 1px solid;
+    width: 200px;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+}

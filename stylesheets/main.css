@@ -1,0 +1,21 @@
+main {
+  // flex: 5 0 0;
+  padding: 10px 20px;
+  margin-left: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+
+  bottom: 70px;
+  /*& > div {
+    min-width: 130px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  & > div > h1 {
+    margin: 10px 0 30px;
+    font-weight: 300;
+    font-size: 3em;
+  }*/
+}

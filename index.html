@@ -6,6 +6,9 @@
 
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.green.css" />
+    <link rel="stylesheet" href="./stylesheets/aside.css" />
+    <link rel="stylesheet" href="./stylesheets/main.css" />
+    <link rel="stylesheet" href="./stylesheets/image-queue.css" />
     <script>
       // install babel hooks in the renderer process
       require('babel-register');
@@ -15,9 +18,10 @@
   <body>
     <h1>Hello World!</h1>
     <!-- Our react component -->
-    <div>
+    <aside class="aside">
       <div id="app"></div>
-    </div>
+    </aside>
+    <main>
     <div class="owl-carousel owl-theme">
       <img src="http://placehold.it/300/f44336/000000" />
       <img src="http://placehold.it/300/e91e63/000000" />
@@ -31,7 +35,10 @@
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+  </main>
+  <image-queue>
+    I am the queue.
+  </image-queue>
 
   <script>window.$ = window.jQuery = require('jquery');</script>
   <script src="./node_modules/jquery/dist/jquery.js"></script>
@@ -54,4 +61,5 @@
     // You can also require other files to run in this process
     require('./renderer.js')
   </script>
+  </body>
 </html>
