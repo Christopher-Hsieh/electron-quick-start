@@ -3,21 +3,16 @@ main {
   background: #ccffcc;
 
   /*padding: 10px 20px;*/
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  
   margin-top: 50px;
   margin-left: 200px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  height: 100%;
-  top: 50px;
-  /*& > div {
-    min-width: 130px;
-    max-width: 100%;
-    margin: 0 auto;
-  }
+  margin-bottom:282px;
 
-  & > div > h1 {
-    margin: 10px 0 30px;
-    font-weight: 300;
-    font-size: 3em;
-  }*/
+  width: auto;
+  position: fixed;
+
 }

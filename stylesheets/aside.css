@@ -1,9 +1,12 @@
 aside {
     background: #009999;
     border-right: 1px solid;
+    border-bottom: 1px solid;
     width: 200px;
     position: fixed;
+    /*overflow-y: scroll;*/
     top: 50px;
     bottom: 0;
     left: 0;
+    padding-bottom:282px;
 }
