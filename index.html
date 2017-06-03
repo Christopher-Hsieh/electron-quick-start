@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.green.css" />
     <link rel="stylesheet" href="./stylesheets/aside.css" />
-    <link rel="stylesheet" href="./stylesheets/main.css" />
+    <link rel="stylesheet" href="./stylesheets/central-nav.css" />
     <link rel="stylesheet" href="./stylesheets/image-queue.css" />
     <link rel="stylesheet" href="./stylesheets/top-frame.css" />
+
     <script>
       // install babel hooks in the renderer process
       require('babel-register');
@@ -17,16 +18,21 @@
     </script>
   </head>
   <body>
-    <top-frame>top frame</top-frame>
-    <aside class="aside">
-      <div id="app"></div>
+    <top-frame>
+      top frame
+      <div>
+        search bar | settings
+      </div>
+    </top-frame>
+
+    <aside>
+      <div id="aside-react"></div>
     </aside>
-    <main>
-        <!-- All of the Node.js APIs are available in this renderer process. -->
-        We are using Node.js <script>document.write(process.versions.node)</script>,
-        Chromium <script>document.write(process.versions.chrome)</script>,
-        and Electron <script>document.write(process.versions.electron)</script>.
-  </main>
+
+    <central-nav>
+      <div id="central-nav"></div>
+    </central-nav>
+
   <image-queue>
     <div class="owl-carousel owl-theme">
       <img src="http://placehold.it/300/f44336/000000" />
@@ -56,7 +62,6 @@
   </script>
 
   <script>
-
     // You can also require other files to run in this process
     require('./renderer.js')
   </script>

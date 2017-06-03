@@ -1,4 +1,4 @@
-main {
+central-nav {
   /*// flex: 5 0 0;*/
   background: #ccffcc;
 
@@ -7,7 +7,7 @@ main {
   left: 0;
   bottom: 0;
   top: 0;
-  
+
   margin-top: 50px;
   margin-left: 200px;
   margin-bottom:282px;
